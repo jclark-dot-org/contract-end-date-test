@@ -1,0 +1,9 @@
+.idea/
+.sfdx/
+.vscode/
+.tempforceignore
+DX.iml
+IlluminatedCloud/
+projectFilesBackup/
+node_modules/
+
