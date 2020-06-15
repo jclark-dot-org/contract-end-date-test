@@ -2,7 +2,7 @@
 .sfdx/
 .vscode/
 .tempforceignore
-DX.iml
+*.iml
 IlluminatedCloud/
 projectFilesBackup/
 node_modules/
