@@ -6,7 +6,7 @@ When pushing source to a scratch org, the `autoCalculateEndDate` value in `Contr
 
 ## Steps to Reproduce
 
-1.  `cd` into the project root directory
+1.  Clone the repo and `cd` into the project root directory
 2.  `./createOrgFailPush`
 3.  Note that the push command in the script failed to push with an error that Contract.EndDate is not writeable, even though `force-app/main/default/settings/Contract.settings-meta.xml` contains `<autoCalculateEndDate>false</autoCalculateEndDate>`:
     
