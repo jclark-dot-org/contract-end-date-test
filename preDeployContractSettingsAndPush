@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+# this script expects `createOrgFailPush` has already run and created a scratch org
+
+# echo commands as they run
+set -x
+
+# pre-deploy Contract Settings
+sfdx force:source:deploy -p force-app/main/default/settings/Contract.settings-meta.xml
+
+# try to push source; this will succeed.  See README.md for details
+sfdx force:source:push
