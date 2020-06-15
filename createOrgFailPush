@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# create a scratch org, make it the default
+sfdx force:org:create -s -f config/project-scratch-def.json -d 30 -w 10
+
+# try to push source; this will fail.  See README.md for details
+sfdx force:source:push 
